@@ -1,0 +1,133 @@
+.type-1964 {
+  margin: 0;
+  padding: 0;
+  font-family: segoe ui light;
+}
+.type-1964 .feature {
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 22px;
+}
+.type-1964 .selected {
+  float: right;
+}
+.type-1964 .selected .sort {
+  font-size: 16px;
+  font-weight: 600;
+}
+.type-1964 select#soflow,
+.type-1964 select#soflow-color {
+  -webkit-appearance: button;
+  -webkit-border-radius: 2px;
+  -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+  -webkit-padding-end: 20px;
+  -webkit-padding-start: 2px;
+  -webkit-user-select: none;
+  background-image: url(http://i62.tinypic.com/15xvbd5.png), -webkit-linear-gradient(#FAFAFA,#F4F4F4 40%,#E5E5E5);
+  background-position: 97% center;
+  background-repeat: no-repeat;
+  border: 1px solid #AAA;
+  color: #555;
+  font-size: inherit;
+  margin: 20px;
+  overflow: hidden;
+  padding: 5px 10px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 219px;
+}
+.type-1964 .a {
+  position: relative;
+}
+.type-1964 .a .btn-primary {
+  position: absolute;
+  border: none;
+  color: #fff;
+  font-size: 13px;
+  cursor: pointer;
+  padding: 10px 15px;
+  background: #DE185E;
+}
+.type-1964 .a .new-1 {
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+  top: 0;
+  height: 340px;
+  left: 0;
+}
+.type-1964 .a .new-1 .new {
+  position: absolute;
+  left: 0px;
+  background-color: #5FC748;
+  width: 43px;
+  text-align: center;
+  color: white;
+  border: 2px solid white;
+}
+.type-1964 .a .sale-1 {
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+  top: 0;
+  height: 340px;
+  right: 0;
+}
+.type-1964 .a .sale-1 .sale {
+  right: -7px;
+  background-color: #757CFF;
+  position: absolute;
+  width: 43px;
+  text-align: center;
+  color: white;
+  border: 2px solid white;
+}
+.type-1964 .a .thongtinsanpham {
+  left: 30%;
+  margin-top: 15px;
+  color: #111;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+}
+.type-1964 .a .thongtinsanpham:hover {
+  color: orange;
+}
+.type-1964 .a .giatien {
+  text-align: center;
+  font-weight: bold;
+}
+.type-1964 .a .hinhsanpham {
+  height: 270px;
+}
+@media only screen and (max-width: 1080px) {
+  .type-1964 select#soflow,
+  .type-1964 select#soflow-color {
+    width: 139px;
+  }
+  .type-1964 .hinhsanpham {
+    margin-left: 80px;
+    height: 270px;
+  }
+  .type-1964 .btn-primary {
+    margin-top: -96px;
+    position: absolute;
+    margin-right: 202px;
+    border: none;
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 15px;
+    background: #DE185E;
+    z-index: 10;
+  }
+  .type-1964 .sale-1 {
+    font-weight: 700;
+  }
+  .type-1964 img {
+    margin-left: 10px;
+    width: 50%;
+    height: auto;
+  }
+}
