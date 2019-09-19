@@ -36,6 +36,16 @@
   white-space: nowrap;
   width: 219px;
 }
+.type-1964 .text-center img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.type-1964 .text-center img:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
 .type-1964 .a {
   position: relative;
 }
@@ -45,8 +55,9 @@
   color: #fff;
   font-size: 13px;
   cursor: pointer;
-  padding: 10px 15px;
+  padding: 10px 57px;
   background: #DE185E;
+  right: 23%;
 }
 .type-1964 .a .new-1 {
   position: absolute;
@@ -89,6 +100,7 @@
   cursor: pointer;
   text-align: center;
   font-weight: bold;
+  padding-bottom: 10px;
 }
 .type-1964 .a .thongtinsanpham:hover {
   color: orange;
@@ -97,17 +109,10 @@
   text-align: center;
   font-weight: bold;
 }
-.type-1964 .a .hinhsanpham {
-  height: 270px;
-}
 @media only screen and (max-width: 1080px) {
   .type-1964 select#soflow,
   .type-1964 select#soflow-color {
     width: 139px;
-  }
-  .type-1964 .hinhsanpham {
-    margin-left: 80px;
-    height: 270px;
   }
   .type-1964 .btn-primary {
     margin-top: -96px;

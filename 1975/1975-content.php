@@ -6,7 +6,6 @@ preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-
 <div class="type-2014">  
     <footer id="footer">
         <div class="footer-container">
@@ -14,10 +13,10 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12 col-sm-6 col-md-3 links about_ft">
-                            <h3>
+                            <div class="h3">
                                 <span style="display: none;"></span>
                                 <img src="images/logo_ft.png" alt="">
-                            </h3>
+                            </div>
                             <div id="footer_sub_menu_col_1" class="collapse">
                                 <div class="footer_sub_menu_col_p">
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Morbi dui placerat ornare.</p>

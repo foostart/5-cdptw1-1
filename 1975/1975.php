@@ -10,7 +10,7 @@ if (!class_exists('lessc')) {
     require_once($dir_block . '/libs/lessc.inc.php');
 }
 $less = new lessc;
-$less->compileFile('less/2014.less', 'css/2014.css');
+$less->compileFile('less/1975.less', 'css/1975.css');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -19,19 +19,15 @@ $less->compileFile('less/2014.less', 'css/2014.css');
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>2014</title>
-
+        <title>1975</title>
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        <link href="css/2014.css" rel="stylesheet" type="text/css"/>
-
+        <link href="css/1975.css" rel="stylesheet" type="text/css"/>
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/2014.js"></script>
-
     </head>
     <body>
-        <?php include '../2014/2014-content.php'; ?>
+        <?php include "../1975/1975-content.php"; ?>
     </body>
 </html>
