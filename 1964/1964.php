@@ -12,23 +12,23 @@
         require_once($dir_block.'/libs/lessc.inc.php');
     }   
     $less = new lessc;
-    $less->compileFile('less/1964.less', 'css/1964.css');   
+    $less->compileFile('less/1964.less', 'css/1964.css');
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title></title>
+	<title>1964</title>
 	<meta charset="utf-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
 	<link rel="stylesheet" href="css/1964.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<script href="js/bootstrap.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-    <script src="js/1964.js"></script>
+    <script src="../1964/js/jquery-2.1.4.min.js"></script>
+    <script src="../1964/js/swiper.min.js"></script>    
 </head>
 <body>
-	<?php include $dir_block.'/1964-content.php'; ?>  
+	<?php include '../1964/content.php';?>  
+    <script src="../1964/js/1964.js"></script>
 </body>
 </html>

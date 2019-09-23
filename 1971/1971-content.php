@@ -7,26 +7,40 @@ preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-<div class="slide">
-    <ul>
-        <li class="img-slide pic1" stt="0">
-            <img src="images/slider-2.jpg" alt="hinh1"/>
-            <div class="bg"></div>
-        </li>
-        <div class="mini-title text0 text-sub">THE ULTIMATE GOAL</div>
-        <div class="text-slide text0 text-sub"><h1>We are manufacturing products with world class quality.</h1></div>
-        <div class="read-more text0 text-sub">READ MORE</div>
-        <li class="img-slide pic2" stt="1">
-            <img src="images/slider-3.jpg" alt=""/>
-            <div class="bg"></div>
-        </li>
-        <div class="mini-title text1 textt-sub">THE ULTIMATE GOAL</div>
-        <div class="text-slide text1 text-sub"><h1>Supplying the world with high quality chemical products.</h1></div>
-        <div class="read-more text1 text-sub">READ MORE</div>
-    </ul>
-    <div class="btn-slide">
-        <i class="fa fa-angle-left"></i>
-        <i class="fa fa-angle-right"></i>
+
+ <div class="type-1971">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+         <div class="swiper-slide">
+                <a href="#">
+                    <img class="img-responsive" src="images/slider-2.jpg" alt="Flower">
+                    <div class="caption slide2">
+                        <div class="title">
+                           <p>THE ULTIMATE GOAL</p>
+                            <h2><strong>We are manufacturing products with world class quality.</strong></h2>
+                            <span class="btn btn-primary b1"><strong>Read more</strong></span>
+                        </div> 
+                    </div>
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="#">
+                    <img class="img-responsive" src="images/slider-3.jpg" alt="Flower">
+                    <div class="caption slide3">
+                        <div class="title">
+                           <p>THE ULTIMATE GOAL</p>
+                            <h2><strong>Supplying the world with high quality chemical products.</strong></h2>
+                            <span class="btn btn-primary b1"><strong>Read more</strong></span>
+                        </div> 
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <div class="contact">
+            <div class="swiper-button-next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+            <div class="swiper-button-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
+        </div>
     </div>
-    <div class="time-banner"></div>
 </div>

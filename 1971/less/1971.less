@@ -1,433 +1,302 @@
-body{
-    font-family: myfont;
-    font-weight: bold;
-}
-@font-face {
-    font-family:myfont;
-    src:url(../fonts/RobotoSlab-Bold.ttf); 
-}
-img {
-    width: 100%;
-    height: 100%;
-}
-ul{
-    list-style: none;
-    margin: 0;
-    padding:0;
-}
-a, a:focus, a:hover{
-    text-decoration: none;
-}
-.slide{
-    height: 700px;
-    overflow: hidden;
+.type-1971{
+ .swiper-container {          
     position: relative;
-    width:100%;
-    ul{
-        position: relative;
-        width:100%; 
-        height: 700px;
-        .img-slide{
-            position: absolute;
-            top:0;
-            width: 100%;
-            height: 700px;
-            .bg{
-                background-color:  rgba(0, 0, 0, 0.3);
+    overflow: auto;
+    list-style: none;
+    .swiper-wrapper {
+        display: -webkit-box;
+        .swiper-slide {
+            cursor: pointer;               
+            img{
                 width: 100%;
-                height: 100%;
-                position: absolute;
-                z-index: 1;
+            }               
+        }
+    }                  
+          
+    .slide2{
+        margin: -571px 245px 600px 269px ;
+        text-align: left;
+        .title{
+             text-align: center;
+            h2{
+                color: #fff;
+                font: 50px Libre Baskerville;
+                font-weight: 400;
+                
+                 line-height: 55px;
+            }
+            p{
+                letter-spacing: 0.15em;
+                color: #6cd31d;
+                font:  Libre Baskerville;
+                line-height: 20px;
+                font-weight: 900;
+                font-size: 15px;
+            } 
+        } 
+    }
+    .slide3{
+        text-align: center;
+        margin-top: -350px;
+        margin-bottom: 350px;
+        .title{
+            h2{
+                color: #fff;
+                font: 50px Libre Baskerville;
+                 font-weight: 400;
+                 line-height: 55px;
+            }
+            p{
+                letter-spacing: 0.15em;
+                color: #6cd31d;
+                font:  Libre Baskerville;
+                line-height: 20px;
+                font-weight: 900;
+                font-size: 15px;
             }
         }
-        .pic1{
+    }  
+    .btn-primary {
+        background: brown;
+        color: #fff;
+        border-color: brown;
+    }
+    .btn {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        display: inline-block;
+        padding: 12px 18px;
+        margin-bottom: 0;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.42857143;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        user-select: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        letter-spacing: 0.15em;
+    }
+    .btn-primary:hover{
+        background: #b28d6a;
+    }
+    .swiper-button-next,.swiper-button-prev {
+        position: absolute;
+        top: 50%;
+        width: 2.7rem;
+        height: 4.4rem;
+        margin-top: -2.2rem;
+        cursor: pointer;
+    }
+    .swiper-button-prev:not(:focus){
+        /* Styles for only form buttons that do not have focus */
+    }
+    .swiper-button-prev,.swiper-container-rtl .swiper-button-next {
+        border-radius: 11.5rem;
+        height: 11.5rem;
+        width: 11.5rem;
+        right: auto;
+        opacity: 0;
+        position: absolute;
+        top: 46rem;
+        background-image: none;
+    } 
 
-            background-position: center;
-            background-size: cover; 
-        }
-        h1{
-            font-size: 46px;
-        }
-        .mini-title{
-            color: rgb(108, 211, 29);
-            text-align: center;
-            line-height: 20px;
-            font-weight: 900;
-            font-size: 15px;
-            transform-origin: 50% 50% 0px;
-            position: absolute;
-            visibility: visible;
-            left: 570px;
-            top: 350px;
-            z-index: 5;
-        }
-        .text-slide{
-            font-weight: 400;
-            font-size: 50px;
-            line-height: 55px;
-            text-align: center;
-            position: absolute;
-            left: 380px;
-            top: 370px;
-            min-width: 550px;
-            max-width: 550px;
-            z-index: 5;
-            color: #FFF;
-        }
-        .read-more{
-            position: absolute;
-            left: 570px;
-            top: 550px;
-            border: 1px solid rgba(255, 255, 255, 0.247059);
-            line-height: 17px;
-            padding: 12px 35px;
-            letter-spacing: 2px;
-            font-size: 13px;
-            cursor: pointer;
-            background-color: rgba(16, 110, 170, 0.8);
-            color: #FFF;
-            z-index: 5;
-            font-weight: 750;
-        }
-        .read-more:hover{
-            transition: all 0.3s ease-in;
-            background-color: #FFF;
-            color: rgb(0, 0, 0);
-        }
-        .pic2{
-            background-position: center;
-            background-size: cover; 
-        }
-        .text1, .pic2{
-            display: none;
-            font-size:15px;
-        }
-    }
-    .btn-slide{
+    .swiper-button-next,.swiper-container-rtl .swiper-button-prev {
+        border-radius: 11.5rem;
+        height: 11.5rem;
+        width: 11.5rem;
+        left: auto;
+        opacity: 0;
         position: absolute;
-        right: 0;
-        bottom: 0;
-        z-index: 4;
-        .fa{
-            cursor: pointer;
-            color: #FFF;
-            text-align: center;
-            font-size: 26px;
-            background: rgba(0,0,0,0.7);
-            padding: 10px 15px;
-            width: 50px;
-        }
-        .fa-angle-left{
-            margin-right: -4px;
-        }
-        .fa:hover{
-            background: rgba(0,0,0,1);
-        }
+        top: 46rem;
+        background-image: none;
     }
-    .time-banner{
-        height:5px;
-        background-color: rgb(166, 216, 236);
-        z-index: 5;
-        position: absolute;
-        bottom:0;
+    .fa-angle-right, .fa-angle-left{
+        position: relative;
+        color: rgb(211, 118, 110);
+        font-size: 7rem;
+        bottom: 200px;
+        left: 4rem;
+    }
+    .fa-angle-right:hover{
+        color: rgb(137, 98, 85);
+    }
+    .fa-angle-left:hover{
+        color: rgb(137, 98, 85);
     }
 }
-@media (max-width:1024px)and (min-width:768px)
+.swiper-pagination-bullets
 {
-    .slide{
-        height: 600px;
-        ul{
-            li{
-                height: 500px;
-            }
-            .mini-title{
-                left: 5% !important;
-                top: 13%!important;
-                color:#a8d8ee;
-                font-size: 15px;
-            }
-            .text-slide{
-                left: 5%;
-                top:15%;
-                font-size: 60px;
-                min-width: 60%;
-                max-width: 60%;
-                line-height: 30px;
-            }
-            .read-more{
-                line-height: 25px;
-                font-size: 16px;
-                left: 5%;
-                top: 45%;
-                margin-top: 0px;
-            }
-        }
+    top: 77%;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 0.5rem;
+}
+.swiper-container:hover{
+    .swiper-button-prev,.swiper-container-rtl .swiper-button-next, 
+    .swiper-button-next,.swiper-container-rtl .swiper-button-prev {
+        opacity: 1;
     }
-    .slide ul .img-slide {
-        height: 400px !important;
-        width: 100% !important;
+} 
+}
+@media (max-width: 1170px){
+    .fa-angle-right, .fa-angle-left{
+     bottom: 250px !important;
+ }
+ .slide{
+    margin-top: -200px !important;
+    margin-bottom: 200px !important;
+}
+.slide2{
+    margin: -350px 200px 350px 200px !important;
+}
+.slide3{
+    margin-top: -300px !important;
+    margin-bottom: 300px !important;
+    .title{
+        h2{
+            font: 35px Libre Baskerville !important;
+        }
+        p{
+            font: 15px Libre Baskerville;
+        }
     }
 }
-@media (max-width:827px)and (min-width:242px)
-{
-    .slide{
-        height: 600px;
-        ul{
-            li{
-                height: 500px;
-            }
-            h1{
-                font-size: 33px;
-            }
-            .mini-title{
-                left: 5% !important;
-                top: 13%!important;
-                color:#a8d8ee;
-                font-size: 12px;
-            }
-            .text-slide{
-                left: 5%;
-                top:15%;
-                font-size: 5px;
-                min-width: 60%;
-                max-width: 60%;
-                line-height: 10px;
-            }
-            .read-more{
-                line-height: 25px;
-                font-size: 16px;
-                left: 5%;
-                top: 40%;
-                margin-top: 0px;
-            }
-        }
+}
+@media (max-width: 900px){
+    .fa-angle-right, .fa-angle-left{
+     bottom: 300px !important;
+ }
+ 
+.slide2{
+    margin: -300px 200px 300px 200px !important;
+    .title{
+    h2{
+        font-size: 38px !important;
     }
-    .slide ul .img-slide {
-        height: 400px !important;
-        width: 100% !important;
+
     }
 }
-@media (max-width:720px)and (min-width:242px)
-{
-    .slide{
-        height: 600px;
-        ul{
-            li{
-                height: 500px;
-            }
-            .mini-title{
-                left: 5% !important;
-                top: 20%!important;
-                color:#a8d8ee;
-                font-size: 12px;
-            }
-            .text-slide{
-                left: 5%;
-                top:20%;
-                font-size: 5px;
-                min-width: 60%;
-                max-width: 60%;
-                line-height: 10px;
-            }
-            .read-more{
-                line-height: 25px;
-                font-size: 16px;
-                left: 5%;
-                top: 40%;
-                margin-top: 0px;
-            }
+.slide3{
+    margin-top: -250px !important;
+    margin-bottom: 250px !important;
+
+}
+}
+@media (max-width: 700px){
+    .fa-angle-right, .fa-angle-left{
+     bottom: 350px !important;
+ }
+ .btn{
+    padding: 6px 10px !important;
+}
+
+.slide2{
+    margin: -200px 100px 200px 100px !important;
+    .title{
+        h2{
+            font: 35px Libre Baskerville !important;
         }
-    }
-    .slide ul .img-slide {
-        height: 400px !important;
-        width: 100% !important;
+        p{
+            font: 15px Libre Baskerville !important;
+            letter-spacing: 0.0em !important;
+        }
+    }           
+}
+.slide3{
+    margin-top: -170px !important;
+    margin-bottom: 170px !important;
+    .title{
+        h2{
+            font: 20px Libre Baskerville !important;
+        }
+        p{
+            font: 10px Libre Baskerville !important;
+            letter-spacing: 0.0em !important;
+        }
+    }           
+}
+}
+@media (max-width: 479px){
+    .fa-angle-right, .fa-angle-left{
+        display: none;
     }
 }
-@media (max-width:595px)and (min-width:242px)
-{
-    .btn-slide {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        z-index: 4;
-        margin-left:20px;
-        top:550px;
-    }
-    .slide{
-        height: 600px;
-        ul{
-            li{
-                height: 500px;
-            }
-            h1{
-                font-size: 24px;
-            }
-            .mini-title{
-                left: 5% !important;
-                top: 13%!important;
-                color:#a8d8ee;
-                font-size: 12px;
-            }
-            .text-slide{
-                left: 5%;
-                top:15%;
-                font-size: 5px;
-                min-width: 60%;
-                max-width: 60%;
-                line-height: 10px;
-            }
-            .read-more{
-                line-height: 25px;
-                font-size: 14px;
-                left: 5%;
-                top: 35%;
-                margin-top: 0px;
+@media (max-width: 450px){
+    
+    .slide2{
+        margin-top: -170px !important;
+        margin-bottom: 170px !important;
+        .title{
+            h2{
+                font-size: 15px !important;
             }
         }
-    }
-    .slide ul .img-slide {
-        height: 400px !important;
-        width: 100% !important;
     }
 }
-@media (max-width:446px)and (min-width:242px)
-{
-    .btn-slide {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        z-index: 4;
-        margin-left:20px;
-        top:380px;
+@media (max-width: 390px){
+    .btn{
+        padding: 3px 9px !important;
     }
-    .slide{
-        height: 600px;
-        ul{
-            li{
-                height: 500px;
+   
+    .slide2{
+        margin-top: -201px !important;
+        margin-bottom: 4px !important;
+        .title{
+            h2{
+                font: 20px Libre Baskerville !important;
             }
-            h1{
-                font-size: 21px;
-            }
-            .mini-title{
-                left: 5% !important;
-                top: 13%!important;
-                color:#a8d8ee;
-                font-size: 12px;
-            }
-            .text-slide{
-                left: 5%;
-                top:15%;
-                font-size: 5px;
-                min-width: 60%;
-                max-width: 60%;
-                line-height: 10px;
-            }
-            .read-more{
-                line-height: 25px;
-                font-size: 14px;
-                left: 5%;
-                top: 30%;
-                margin-top: 0px;
+            p{
+                font: 10px Libre Baskerville !important;
             }
         }
     }
-    .slide ul .img-slide {
-        height: 400px !important;
-        width: 100% !important;
+    .slide3{
+        margin-top: -150px !important;
+        margin-bottom: 150px !important;
+        .title{
+            h2{
+                font: 20px Libre Baskerville !important;
+            }
+            p{
+                font: 10px Libre Baskerville !important;
+            }
+        }
     }
 }
-@media (max-width:387px)and (min-width:150px)
-{
-    .btn-slide {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        z-index: 4;
-        margin-left:20px;
-        top:380px;
+@media (max-width: 300px){
+    .btn{
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
     }
-    .slide{
-        height: 600px;
-        ul{
-            li{
-                height: 500px;
+   
+    .slide2{
+        margin: -110px 20px 110px 20px !important;
+        .title{
+            h2{                   
+                font: 15px Libre Baskerville !important;
             }
-            h1{
-                font-size: 18px;
-            }
-            .mini-title{
-                left: 5% !important;
-                top: 13%!important;
-                color:#a8d8ee;
-                font-size: 12px;
-            }
-            .text-slide{
-                left: 5%;
-                top:15%;
-                font-size: 5px;
-                min-width: 60%;
-                max-width: 60%;
-                line-height: 10px;
-            }
-            .read-more{
-                line-height: 25px;
-                font-size: 14px;
-                left: 5%;
-                top: 30%;
-                margin-top: 0px;
+            p{
+                margin: 0px !important;
+                font: 10px Libre Baskerville !important;
             }
         }
     }
-    .slide ul .img-slide {
-        height: 300px !important;
-        width: 100% !important;
-    }
-}
-@media (max-width:320px)and (min-width:150px)
-{
-    .btn-slide {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        z-index: 4;
-        margin-left:20px;
-        top:254px;
-    }
-    .slide{
-        height: 600px;
-        ul{
-            li{
-                height: 500px;
+    .slide3{
+        margin-top: -120px !important;
+        margin-bottom: 120px !important;
+        .title{
+            h2{                   
+                font: 15px Libre Baskerville !important;
             }
-            h1{
-                font-size: 15px;
+            p{
+                margin: 0px !important;
+                font: 10px Libre Baskerville !important;
             }
-            .mini-title{
-                left: 5% !important;
-                top: 8%!important;
-                color:#a8d8ee;
-                font-size: 8px;
-            }
-            .text-slide{
-                left: 5%;
-                top:10%;
-                font-size: 5px;
-                min-width: 60%;
-                max-width: 60%;
-                line-height: 10px;
-            }
-            .read-more{
-                line-height: 25px;
-                font-size: 14px;
-                left: 5%;
-                top: 23%;
-                margin-top: 0px;
-            }   
         }
-    }
-    .slide ul .img-slide{
-        height: 300px !important;
-        width: 100% !important;
     }
 }

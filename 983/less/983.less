@@ -1,0 +1,114 @@
+.type-983{
+   .swiper-container {          
+    position: relative;
+    list-style: none;
+    .swiper-wrapper {
+        display: -webkit-box;
+        .swiper-slide {
+            cursor: pointer;               
+            img{
+                width: 50%;
+                height: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 50px;
+            }               
+        }
+    }                  
+    .btn-primary {
+        background: brown;
+        color: #fff;
+        border-color: brown;
+    }
+    .btn {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        display: inline-block;
+        padding: 12px 18px;
+        margin-bottom: 0;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.42857143;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        user-select: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        letter-spacing: 0.15em;
+    }
+    .swiper-button-next,.swiper-button-prev {
+        position: absolute;
+        top: 50%;
+        width: 2.7rem;
+        height: 4.4rem;
+        margin-top: -2.2rem;
+        cursor: pointer;
+    }
+    .swiper-button-prev:not(:focus){
+        /* Styles for only form buttons that do not have focus */
+    }
+    .swiper-button-prev,.swiper-container-rtl .swiper-button-next {
+        border-radius: 11.5rem;
+        height: 11.5rem;
+        width: 11.5rem;
+        right: auto;
+        opacity: 0;
+        position: absolute;
+        top: 46rem;
+        background-image: none;
+    } 
+
+    .swiper-button-next,.swiper-container-rtl .swiper-button-prev {
+        border-radius: 11.5rem;
+        height: 11.5rem;
+        width: 11.5rem;
+        left: auto;
+        opacity: 0;
+        position: absolute;
+        top: 46rem;
+        background-image: none;
+    }
+    .fa-angle-right
+    {
+        position: relative;
+        color: #ffffff;
+        font-size: 7rem;
+        bottom: 177px;
+        left: -29rem;  
+    }
+    .fa-angle-left{
+        position: relative;
+        color: #ffffff;
+        font-size: 7rem;
+        bottom: 177px;
+        left: 38rem;
+    }
+    .fa-angle-right:hover{
+        color: rgb(137, 98, 85);
+    }
+    .fa-angle-left:hover{
+        color: rgb(137, 98, 85);
+    }
+}
+.swiper-pagination-bullets
+{
+
+    top: 90%;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 0.5rem;
+}
+.swiper-container:hover{
+    .swiper-button-prev,.swiper-container-rtl .swiper-button-next, 
+    .swiper-button-next,.swiper-container-rtl .swiper-button-prev {
+        opacity: 1;
+    }
+    .swiper-pagination-bullet-active {
+        opacity: 1;
+        background: white;
+    }
+} 
+}

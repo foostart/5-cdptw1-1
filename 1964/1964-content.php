@@ -32,70 +32,70 @@ $url_path = str_replace('\\', '/', $url_path);
        <div class="col-md-3 col-sm-3">
         <div class="a text-center">
           <img src="images/designer-sunglasses.jpg">
-            <div class="new-1">
-              <span class="new">NEW</span>
-            </div>
-            <div class="sale-1">
-              <a href="#"><span class="sale">SALE</span></a>
-            </div>         
-            <div class="giatien">$69,00</div>
-              <div class="thongtinsanpham">Ruby Necklace</div>
-                <button class="btn-primary" data-button-action="add-to-cart" type="submit">
-                  <i class="fa fa-shopping-cart"></i>
-                 </button>
-                </div>
-              </div>
-        <div class="col-md-3 col-sm-3">
+          <div class="new-1">
+            <span class="new">NEW</span>
+          </div>
+          <div class="sale-1">
+            <a href="#"><span class="sale">SALE</span></a>
+          </div>         
+          <div class="giatien"><p>$69,00</p></div>
+          <div class="thongtinsanpham">Ruby Necklace</div>
+          <button class="btn-primary" data-button-action="add-to-cart" type="submit">
+            <i class="fa fa-shopping-cart"></i>
+          </button>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-3">
+        <div class="a text-center">
+          <img src="images/premium-accessories.jpg">
+          <div class="new-1">
+           <span class="new">NEW</span>
+         </div>
+         <div class="sale-1">
+           <span class="sale">SALE</span>
+         </div>
+         <div class="giatien">$59,00</div>
+         <div class="thongtinsanpham">Necklace Ring</div>
+         <button class="btn-primary" data-button-action="add-to-cart" type="submit">
+          <i class="fa fa-shopping-cart"></i>
+        </button>
+      </div>
+
+    </div>
+    <div class="col-md-3 col-sm-3">
       <div class="a text-center">
-        <img src="images/premium-accessories.jpg">
+        <img src="images/plain-casual-shirt.jpg">
         <div class="new-1">
          <span class="new">NEW</span>
        </div>
        <div class="sale-1">
          <span class="sale">SALE</span>
        </div>
-       <div class="giatien">$59,00</div>
-       <div class="thongtinsanpham">Necklace Ring</div>
+       <div class="giatien">$19,00</div>
+       <div class="thongtinsanpham">Golden Wedding Ring</div>
        <button class="btn-primary" data-button-action="add-to-cart" type="submit">
         <i class="fa fa-shopping-cart"></i>
       </button>
     </div>
 
   </div>
+
   <div class="col-md-3 col-sm-3">
     <div class="a text-center">
-      <img src="images/plain-casual-shirt.jpg">
+      <img src="images/jewellery-for-women.jpg">
       <div class="new-1">
        <span class="new">NEW</span>
      </div>
      <div class="sale-1">
        <span class="sale">SALE</span>
      </div>
-     <div class="giatien">$19,00</div>
-     <div class="thongtinsanpham">Golden Wedding Ring</div>
+     <div class="giatien">$380,00</div>
+     <div class="thongtinsanpham">Platinium Diamond Rings</div>
      <button class="btn-primary" data-button-action="add-to-cart" type="submit">
       <i class="fa fa-shopping-cart"></i>
     </button>
+
   </div>
-
-</div>
-
-<div class="col-md-3 col-sm-3">
-  <div class="a text-center">
-    <img src="images/jewellery-for-women.jpg">
-    <div class="new-1">
-     <span class="new">NEW</span>
-   </div>
-   <div class="sale-1">
-     <span class="sale">SALE</span>
-   </div>
-   <div class="giatien">$380,00</div>
-   <div class="thongtinsanpham">Platinium Diamond Rings</div>
-   <button class="btn-primary" data-button-action="add-to-cart" type="submit">
-    <i class="fa fa-shopping-cart"></i>
-  </button>
-
-</div>
 </div>
 
 </div>

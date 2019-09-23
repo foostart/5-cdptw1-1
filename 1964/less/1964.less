@@ -1,139 +1,156 @@
-.type-1964 {
-  margin: 0;
-  padding: 0;
-  font-family: segoe ui light;
-  .feature {
+.type-1964{
+	html, body {
+      position: relative;
+      height: 100%;
+    }
+    body {
+      background: #fff;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      margin-right: 5px !important;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      
+    }
+    .text-center{
+    position: relative;
+    background: #fff;
+    height: auto;
+    overflow: hidden;
+    display: block;
+    
+  }
+  .text-center img{
+    transition: transform .5s ease;
+    margin-bottom: -15px;
+    width: 100%;
+    display: block;
+  }
+  .text-center:hover img{
+    transform: scale(1.2);
+
+  }
+  .new-1{
+   position: absolute;
+    width: 100%;
+    z-index: 3;
+    top: 0px;
+    height: 340px;
+    left: 0px;
+  }
+  .new-1 .new{
+    position: absolute;
+    left: 0px;
+    background-color: rgb(95, 199, 72);
+    width: 50px;
+    text-align: center;
+    color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-image: initial;
+  }
+
+  .sale-1{
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+    top: 0px;
+    height: 340px;
+    right: 0px;
+  }
+  .sale-1 .sale{
+    right: 1px;
+    background-color: rgb(117, 124, 255);
+    position: absolute;
+    width: 50px;
+    text-align: center;
+    color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-image: initial;
+  }
+  .selected{
+    float: right;
+  }
+  .selected .sort{
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .feature{
     font-weight: bold;
     margin-top: 20px;
     font-size: 22px;
-  }
-  .selected {
-    float: right;
-    .sort{
-      font-size: 16px;
-      font-weight: 600;
-    }
-  }
-  select#soflow,
-  select#soflow-color {
-    -webkit-appearance: button;
-    -webkit-border-radius: 2px;
-    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
-    -webkit-padding-end: 20px;
-    -webkit-padding-start: 2px;
-    -webkit-user-select: none;
-    background-image: url(http://i62.tinypic.com/15xvbd5.png), -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
-    background-position: 97% center;
-    background-repeat: no-repeat;
-    border: 1px solid #AAA;
-    color: #555;
-    font-size: inherit;
-    margin: 20px;
-    overflow: hidden;
-    padding: 5px 10px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    width: 219px;
-  }
-  .text-center img {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-      }
-  .text-center img:hover  {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-      }
-   .a {
-    position: relative;
-     .btn-primary {
-        position:absolute;
-        border: none;
-        color: #fff;
-        font-size: 13px;
-        cursor: pointer;
-        padding: 10px 57px;
-        background: #DE185E;
-        right: 23%;
-      }
 
-      .new-1 {
-        position: absolute;
-        width: 100%;
-        z-index: 3;
-        top: 0;
-        height: 340px;
-        left: 0;
-        .new {
-          position: absolute;
-          left: 0px;
-          background-color: #5FC748;
-          width: 43px;
-          text-align: center;
-          color: white;
-          border: 2px solid white;
-        }
-      }
-      .sale-1 {
-        position: absolute;
-        width: 100%;
-        z-index: 3;
-        top: 0;
-        height: 340px;
-        right: 0;
-        .sale {
-          right: -7px;
-          background-color: #757CFF;
-          position: absolute;
-          width: 43px;
-          text-align: center;
-          color: white;
-          border: 2px solid white;
-        }
-      }
-      .thongtinsanpham {
-          left: 30%;
-          margin-top: 15px;
-          color: #111;
-          cursor: pointer;
-          text-align: center;
-          font-weight: bold;
-          padding-bottom: 10px;
-        }
-        .thongtinsanpham:hover {
-          color: orange;
-        }
-        .giatien {
-          text-align: center;
-          font-weight: bold;
-        }
-  } 
-  @media only screen and (max-width: 1080px){
-    select#soflow,
-    select#soflow-color{
-        width: 139px;
-    }
-    .btn-primary{
-      margin-top: -96px;
-      position: absolute;
-      margin-right: 202px;
-      border: none;
-      color: #fff;
-      font-size: 13px;
-      cursor: pointer;
-      display: inline-block;
-      padding: 10px 15px;
-      background: #DE185E;
-      z-index: 10;
-    }
-    .sale-1{
-      font-weight: 700;
-    }
-     img{
-      margin-left: 10px;
-      width: 50%;
-      height: auto;
-    }
   }
+  .aa{
+    left: 43px;
+  }
+  .ff{
+    right: 100px;
+    top: 24px;
+  }
+  .btn-primary{
+        position: absolute;
+    border: none;
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+    padding: 10px 76px;
+    background: #DE185E;
+    right: 28%;
+  }
+  .btn-primary:hover{
+  	 background:#337ab7;
+  }
+  .swiper-pagination-bullet:hover{
+  background:#337ab7;
+  }
+  @media only screen and (max-width: 600px) {
+  .feature{
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 10px;
+
+  }
+   .selected{
+    float: right;
+    font-size: 10px;
+  }
+  .ff {
+    right: -6px;
+    top: -15px;
+    
+  }
+  .aa{
+    left: -5px;
+    
+  }
+
+}
 }

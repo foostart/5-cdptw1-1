@@ -12,19 +12,25 @@
     $less = new lessc;
     $less->compileFile('less/1971.less', 'css/1971.css');
     ?>
-    <!DOCTYPE html>
+<!DOCTYPE html>
     <html lang="en">
     <title>TODO supply a title</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-    <link href="css/slideshow-main-css.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="css/1971.css">
+    
     <script src="js/jquery-2.1.4.min.js"></script>
-    <script src="js/slideshow-main-js.js"></script>
-    <script src="js/lightSlider.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    
+    
 </head>
 <body>
   <?php include '../1971/1971-content.php'; ?>
+  <script src="js/1971.js"></script>
+
 </body>
 </html>
