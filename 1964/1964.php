@@ -28,7 +28,7 @@
     <script src="../1964/js/swiper.min.js"></script>    
 </head>
 <body>
-	<?php include '../1964/content.php';?>  
+	<?php include '../1964/1964-content.php';?>  
     <script src="../1964/js/1964.js"></script>
 </body>
 </html>
