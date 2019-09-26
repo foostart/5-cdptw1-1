@@ -141,4 +141,8 @@
   .type-1964 .aa {
     left: -5px;
   }
+  .type-1964 .swiper-button-next {
+    right: 8px;
+    left: 92%;
+  }
 }
