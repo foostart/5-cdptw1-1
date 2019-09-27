@@ -128,6 +128,17 @@
   .btn-primary:hover{
   	 background:#337ab7;
   }
+  .swiper-slide{
+    width: 350px;
+    margin-left: 5px
+  }
+  .swiper-button-next{
+    right: 58px;
+    position: absolute;
+  }
+  .swiper-button-prev{
+     position: absolute;
+  }
   .swiper-pagination-bullet:hover{
   background:#337ab7;
   }
@@ -151,10 +162,59 @@
     left: -5px;
     
   }
-  .swiper-button-next {
-    right: 8px;
+  .swiper-slide{
+    font-size: 10px;
+  }
+  .btn-primary{
+    padding: 10px 33px;
+  }
+  .swiper-slide{
+    width: 100px;
+    margin-left: 11px;
+    margin-right: 11px !important;
+  }
+  .swiper-button-next{
+     right: 16px;
+     top: 17%;
     left: 92%;
+     width: 35px;
+    height: 18px;
+   
+  }
+  .swiper-button-prev{
+      left:0px;
+     top: 17%;
+     width: 35px;
+    height: 18px;
+   
+  }
+}
+@media only screen and (max-width: 400px){
+  .swiper-slide{
+    font-size: 8px;
+  }
+  .swiper-button-next{
+     right: 16px;
+     top: 21%;
+     width: 35px;
+    height: 18px;
+   
+  }
+  .swiper-button-prev{
+      left:0px;
+     top: 21%;
+     width: 35px;
+    height: 18px;
+   
   }
 
 }
+@media only screen and (max-width: 1204px)
+{
+  .swiper-button-next,.swiper-button-prev{
+    position: absolute;
+    top:32%;
+  }
+}
+
 }

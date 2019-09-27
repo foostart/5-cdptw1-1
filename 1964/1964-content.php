@@ -32,7 +32,7 @@ $url_path = str_replace('\\', '/', $url_path);
   <!-- Swiper -->
   <div class="swiper-container">
     <div class="swiper-wrapper">
-      <div class="swiper-slide">
+      <div class="swiper-slide ">
         <div class="row">
          <div class="a text-center">
           <img src="images/designer-sunglasses.jpg" alt="" >
@@ -52,7 +52,7 @@ $url_path = str_replace('\\', '/', $url_path);
               
 
       </div>
-      <div class="swiper-slide">
+      <div class="swiper-slide ">
        
         <div class="row">
          <div class="a text-center">
@@ -72,7 +72,7 @@ $url_path = str_replace('\\', '/', $url_path);
                  </div>
                 
       </div>
-      <div class="swiper-slide">
+      <div class="swiper-slide ">
         
         <div class="row">
          <div class="a text-center">
@@ -92,7 +92,7 @@ $url_path = str_replace('\\', '/', $url_path);
                  </div>
 
       </div>
-      <div class="swiper-slide">
+      <div class="swiper-slide ">
         
         <div class="row">
          <div class="a text-center">

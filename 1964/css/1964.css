@@ -121,6 +121,17 @@
 .type-1964 .btn-primary:hover {
   background: #337ab7;
 }
+.type-1964 .swiper-slide {
+  width: 350px;
+  margin-left: 5px;
+}
+.type-1964 .swiper-button-next {
+  right: 58px;
+  position: absolute;
+}
+.type-1964 .swiper-button-prev {
+  position: absolute;
+}
 .type-1964 .swiper-pagination-bullet:hover {
   background: #337ab7;
 }
@@ -141,8 +152,52 @@
   .type-1964 .aa {
     left: -5px;
   }
+  .type-1964 .swiper-slide {
+    font-size: 10px;
+  }
+  .type-1964 .btn-primary {
+    padding: 10px 33px;
+  }
+  .type-1964 .swiper-slide {
+    width: 100px;
+    margin-left: 11px;
+    margin-right: 11px !important;
+  }
   .type-1964 .swiper-button-next {
-    right: 8px;
+    right: 16px;
+    top: 17%;
     left: 92%;
+    width: 35px;
+    height: 18px;
+  }
+  .type-1964 .swiper-button-prev {
+    left: 0px;
+    top: 17%;
+    width: 35px;
+    height: 18px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .type-1964 .swiper-slide {
+    font-size: 8px;
+  }
+  .type-1964 .swiper-button-next {
+    right: 16px;
+    top: 21%;
+    width: 35px;
+    height: 18px;
+  }
+  .type-1964 .swiper-button-prev {
+    left: 0px;
+    top: 21%;
+    width: 35px;
+    height: 18px;
+  }
+}
+@media only screen and (max-width: 1204px) {
+  .type-1964 .swiper-button-next,
+  .type-1964 .swiper-button-prev {
+    position: absolute;
+    top: 32%;
   }
 }
