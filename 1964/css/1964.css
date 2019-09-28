@@ -186,6 +186,7 @@
     top: 21%;
     width: 35px;
     height: 18px;
+    left: 89%;
   }
   .type-1964 .swiper-button-prev {
     left: 0px;
@@ -194,10 +195,43 @@
     height: 18px;
   }
 }
+@media only screen and (max-width: 600px) {
+  .type-1964 .btn-primary {
+    right: 22%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .type-1964 .swiper-button-next {
+    left: 94%;
+  }
+  .type-1964 .btn-primary {
+    right: 25%;
+  }
+  .type-1964 .swiper-slide {
+    margin-left: 14px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .type-1964 .swiper-slide {
+    width: 350px;
+    margin-left: 11px;
+  }
+  .type-1964 .swiper-button-next {
+    right: 10px;
+    position: absolute;
+  }
+}
 @media only screen and (max-width: 1204px) {
   .type-1964 .swiper-button-next,
   .type-1964 .swiper-button-prev {
     position: absolute;
     top: 32%;
+  }
+  .type-1964 .swiper-slide {
+    margin-left: 15px;
+  }
+  .type-1964 .swiper-button-next {
+    right: 20px;
+    position: absolute;
   }
 }
